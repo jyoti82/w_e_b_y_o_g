@@ -1,0 +1,19 @@
+</script>
+<link rel="stylesheet" type="text/css" href="/stdtheme.css" />
+</head>
+<body>
+<div id='leftBackground'></div><div class='top'><div class='container-fluid' style='max-width:1600px;margin-left:0px;'><div class='row'><div id='topLogo' class='col-lg-8 col-md-8 col-sm-8 col-xs-7'><a href='http://www.w3schools.com'><img src='/images/w3logotest2.png' alt='W3Schools.com' style='border:0;' /></a></div><div id='searchDiv' class='col-lg-4 col-md-4 col-sm-4 col-xs-5'><button id='closeSearch' type='button' class='close' onclick='hideSearch()'><span>&times;</span></button><div id='googleSearch'><div class='gcse-search'></div></div></div></div></div></div><div class='topnavContainer'><div class='container-fluid' style='max-width:1600px;margin-left:0px;padding-left:0;'><ul class='nav nav-pills topnav'><li><a href='/default.asp' class='topnav_home'>HOI</a></li><li><a href='/html/default.asp' class='topnav_html'>HTML</a></li><li><a href='/css/default.asp' class='topnav_css'>CSS</a></li><li><a href='/js/default.asp' class='topnav_js'>JAVASCRIPT</a></li><li><a href='/sql/default.asp' class='topnav_sql'>SQL</a></li><li><a href='/php/default.asp' class='topnav_php'>PHP</a></li><li><a href='/jquery/default.asp' class='topnav_jquery'>jQUERY</a></li><li><a href='/angular/default.asp' class='topnav_angular'>ANGULAR</a></li><li><a href='/bootstrap/default.asp' class='topnav_bootstrap'>BOOTSTRAP</a></li><li><a href='/xml/default.asp' class='topnav_xml'>XML</a></li><li><a id='dropdownTutorialsBtn' href='#' class='topnav_tutorials'>TUTORIALS <span class='caret'></span></a></li><li><a id='dropdownReferencesBtn' href='#' class='topnav_references'>REFERENCES <span class='caret'></span></a></li><li><a id='dropdownExamplesBtn' href='#' class='topnav_examples'>EXAMPLES <span class='caret'></span></a></li><li><a href='/forum/default.asp' class='topnav_forum'>FORUM</a></li><li class='menuBtn' onclick='vismenyen()'><hr><hr><hr></li><li class='menuSearch'><a href='#' class='topnav_search' onclick='showSearch()'>SRCH</a></li></ul></div></div><div class='container-fluid master'><div class='row'><div class='col-lg-2 col-md-2 col-sm-3 menu'><div id='menyen'><h2 class="left"><span class="left_h2">JSON</span> Tutorial</h2>
+<a target="_top" href="default.asp" class="menu_default">JSON HOME</a>
+<a target="_top" href="json_intro.asp" class="menu_json_intro">JSON Intro</a>
+<a target="_top" href="json_syntax.asp" class="menu_json_syntax">JSON Syntax</a>
+<a target="_top" href="json_eval.asp" class="menu_json_eval">JSON HowTo</a>
+<a target="_top" href="json_http.asp" class="menu_json_http">JSON Http</a>
+<a target="_top" href="json_files.asp" class="menu_json_files">JSON Files</a>
+<a target="_top" href="json_example.asp" class="menu_json_example">JSON Example</a></div></div><div class='col-lg-10 col-md-10 col-sm-9 leaderboard'><div id='mainLeaderboard' style='overflow:hidden;'><!--<img src='/images/testbanner.png'>--><!-- MainLeaderboard--><div id='div-gpt-ad-1422003450156-2'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1422003450156-2'); });</script></div></div><div class='row'><div class='col-lg-10 col-md-10 col-sm-12 main'><div>
+<h1>JSON <span class="color_h1">Tutorial</span></h1>
+<div class="chapter">
+<div class="prev"><a class="chapter" href="/default.asp">&laquo; W3Schools Home</a></div>
+<div class="next"><a class="chapter" href="json_intro.asp">Next Chapter &raquo;</a></div>
+</div>
+<hr>
+

@@ -12,7 +12,7 @@ static size_t write_data(void *ptr, size_t size, size_t nmemb, void *stream)
   return written;
 }
 
-int main(void)
+int main1(void)
 {
   CURL *curl_handle;
   static const char *headerfilename = "index.html";
@@ -26,7 +26,7 @@ int main(void)
   curl_handle = curl_easy_init();
 
   /* set URL to get */
-  curl_easy_setopt(curl_handle, CURLOPT_URL, "www.w3schools.com");
+  curl_easy_setopt(curl_handle, CURLOPT_URL, "http://www.w3schools.com/json");
 
   /* no progress meter please */
   curl_easy_setopt(curl_handle, CURLOPT_NOPROGRESS, 1L);
@@ -56,6 +56,9 @@ int main(void)
 
   /* cleanup curl stuff */
   curl_easy_cleanup(curl_handle);
+
+
+
 
   return 0;
 }
