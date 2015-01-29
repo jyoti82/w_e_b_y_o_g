@@ -16,6 +16,7 @@
       <itemPath>input_test.txt</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>myfile.sh</itemPath>
+      <itemPath>notes.txt</itemPath>
       <itemPath>parsingHtmlFile.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -34,12 +35,13 @@
   <confs>
     <conf name="Debug" type="1">
       <toolsSet>
-        <compilerSet>default</compilerSet>
+        <compilerSet>GNU|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <ccTool>
+          <standard>8</standard>
           <commandLine>-lcurl</commandLine>
         </ccTool>
       </compileType>
@@ -48,6 +50,8 @@
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="myfile.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="notes.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="parsingHtmlFile.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -79,6 +83,8 @@
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="myfile.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="notes.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="parsingHtmlFile.cpp" ex="false" tool="1" flavor2="0">
       </item>

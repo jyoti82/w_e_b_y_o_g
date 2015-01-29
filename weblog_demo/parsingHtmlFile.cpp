@@ -2,11 +2,11 @@
 #include "parsingHtmlFile.h"
 using namespace std;
 
-set<string> fetchUrlFromHtmlFile(string fileNameToParse,string parent_url)
+set<string> fetchUrlFromHtmlFile(string fileNameToParse,string website_url,string base_url)
 {   string url;
     string complete_url;
     set<string> list;
-           int i=0;     
+           int i=0;     int flag =0;
     //vector<string> list;
 	 std::ifstream file(fileNameToParse);
 	 std::string line;
@@ -34,6 +34,7 @@ set<string> fetchUrlFromHtmlFile(string fileNameToParse,string parent_url)
                  i=found;
                  if(line[found] == '/') {
                         i++;
+                        flag = 1; // url contains / at start
                     }
                 while(line[found] != '\"' && line[found] != '\'')
                 {   /*
@@ -54,10 +55,18 @@ set<string> fetchUrlFromHtmlFile(string fileNameToParse,string parent_url)
                 complete_url.clear();
                  if(found_http == std::string::npos && url.compare("#") != 0 ){
                     //http not present in url
-                     complete_url.append(parent_url).append(url);
-                     list.insert(complete_url);
-                     
+                     if(flag == 1){
+                         complete_url.append(base_url).append(url);
+                     }
+                     else{
+                        complete_url.append(website_url).append(url);
+                     }
+                    
+                    list.insert(complete_url);
+                     //cout << complete_url[complete_url.length() - 1] << endl;
+                     cout<< complete_url << "  complete_url"<<endl;
                  }
+                flag =0;
                 found = line.find("href",found+1);
                  if(found > line.length()){
                    break;

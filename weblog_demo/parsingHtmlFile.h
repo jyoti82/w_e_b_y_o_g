@@ -23,4 +23,4 @@ using namespace std;
 #endif	/* PARSINGHTMLFILE_H */
 
 
-set<string> fetchUrlFromHtmlFile(string,string);
+set<string> fetchUrlFromHtmlFile(string,string,string);

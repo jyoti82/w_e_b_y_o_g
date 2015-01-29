@@ -1,0 +1,38 @@
+divide url into base url and one entered
+
+
+
+
+
+cout << respcode << " respcode "<<endl;
+    if(respcode == 0){
+        file_to_parse_list.insert(w3schools); // added file to html link parsing list
+        cout << w3schools << " in file_to_parse_list "<<endl;
+    }
+    else{
+        int ret_code = std::remove(w3schools.c_str());
+        if (ret_code == 0) {
+            std::cout << "File was successfully deleted\n";
+        } else {
+            std::cerr << "Error during the deletion: " << ret_code << '\n';
+        }
+    }
+
+
+
+
+
+/*
+    temp_list = fetchUrlFromHtmlFile(w3schools,website_url);
+    old_list.erase(*it);
+    parsed_set.insert(*it);
+    for (temp=temp_list.begin(); temp!=temp_list.end(); ++temp)
+    {
+        find_url = *temp;
+        ret = parsed_set.insert(find_url);
+        if(ret.second == true){
+            cout<< "new url to download  "<<find_url<<endl; 
+            new_list.insert(find_url);
+        }
+    }
+    */
